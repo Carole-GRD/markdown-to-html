@@ -8,7 +8,6 @@
     box-sizing: border-box;
 }
 
-
 body {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Rubik', sans-serif;
@@ -84,11 +83,23 @@ ol ul {
 }
 
 ol ul ul {
-    /* margin-left: 2rem; */
     font-weight: 400;
 }
 
-#link {
+ol li {
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+ol ul li {
+    margin-top: 0;
+    margin-bottom: .3rem;
+}
+ol ul ul li {
+    margin-top: 0;
+    margin-bottom: .1rem;
+}
+
+p#link {
     text-align: center;
     font-size: 1.5rem;
 }
